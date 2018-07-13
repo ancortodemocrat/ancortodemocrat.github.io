@@ -1,0 +1,28 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Informations g\IeC {\'e}n\IeC {\'e}rales}{2}{chapter.1}
+\contentsline {subsection}{D\IeC {\'e}p\IeC {\^o}ts git}{2}{subsection*.2}
+\contentsline {subsection}{Donn\IeC {\'e}es des exp\IeC {\'e}riences}{2}{subsection*.3}
+\contentsline {subsection}{Documentation}{2}{subsection*.4}
+\contentsline {subsection}{D\IeC {\'e}pendances}{2}{subsection*.5}
+\contentsline {chapter}{\numberline {2}Processus}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Appel des fonctionnalit\IeC {\'e}s}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Architecture du projet}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}com.democrat.ancortodemocrat}{5}{section.3.1}
+\contentsline {subsection}{com.democrat.ancortodemocrat.element}{6}{subsection*.9}
+\contentsline {subsection}{com.democrat.ancortodemocrat.feature}{7}{subsection*.11}
+\contentsline {subsection}{com.democrat.ancortodemocrat.positioning}{8}{subsection*.13}
+\contentsline {subsection}{com.democrat.ancortodemocrat.treetagger}{9}{subsection*.15}
+\contentsline {section}{\numberline {3.2}com.democrat.classification}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}com.democrat.expes}{11}{section.3.3}
+\contentsline {chapter}{\numberline {4}Entr\IeC {\'e}es - Sorties}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Calcul des features}{12}{section.4.1}
+\contentsline {paragraph}{Etapes du calcul des features}{12}{paragraph*.21}
+\contentsline {section}{\numberline {4.2}G\IeC {\'e}n\IeC {\'e}ration des arff}{13}{section.4.2}
+\contentsline {paragraph}{Etapes g\IeC {\'e}n\IeC {\'e}ration Arff}{13}{paragraph*.22}
+\contentsline {section}{\numberline {4.3}G\IeC {\'e}n\IeC {\'e}ration du model}{14}{section.4.3}
+\contentsline {paragraph}{Etapes g\IeC {\'e}n\IeC {\'e}ration du model}{14}{paragraph*.23}
+\contentsline {section}{\numberline {4.4}Classification}{15}{section.4.4}
+\contentsline {paragraph}{Etapes de la classification}{15}{paragraph*.24}
+\contentsline {section}{\numberline {4.5}Cha\IeC {\^\i }nage}{16}{section.4.5}
+\contentsline {paragraph}{Etapes du Cha\IeC {\^\i }nage}{16}{paragraph*.25}
+\contentsline {chapter}{\numberline {5}Refactoring}{18}{chapter.5}

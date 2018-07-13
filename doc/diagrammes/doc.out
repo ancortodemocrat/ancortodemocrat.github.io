@@ -1,0 +1,27 @@
+\BOOKMARK [0][-]{chapter.1}{Informations g\351n\351rales}{}% 1
+\BOOKMARK [1][-]{subsection*.2}{D\351p\364ts git}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection*.3}{Donn\351es des exp\351riences}{subsection*.2}% 3
+\BOOKMARK [2][-]{subsection*.4}{Documentation}{subsection*.2}% 4
+\BOOKMARK [2][-]{subsection*.5}{D\351pendances}{subsection*.2}% 5
+\BOOKMARK [0][-]{chapter.2}{Processus}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Appel des fonctionnalit\351s}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Architecture du projet}{}% 8
+\BOOKMARK [1][-]{section.3.1}{com.democrat.ancortodemocrat}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection*.9}{com.democrat.ancortodemocrat.element}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection*.11}{com.democrat.ancortodemocrat.feature}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection*.13}{com.democrat.ancortodemocrat.positioning}{section.3.1}% 12
+\BOOKMARK [2][-]{subsection*.15}{com.democrat.ancortodemocrat.treetagger}{section.3.1}% 13
+\BOOKMARK [1][-]{section.3.2}{com.democrat.classification}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{com.democrat.expes}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Entr\351es - Sorties}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Calcul des features}{chapter.4}% 17
+\BOOKMARK [2][-]{paragraph*.21}{Etapes du calcul des features}{section.4.1}% 18
+\BOOKMARK [1][-]{section.4.2}{G\351n\351ration des arff}{chapter.4}% 19
+\BOOKMARK [2][-]{paragraph*.22}{Etapes g\351n\351ration Arff}{section.4.2}% 20
+\BOOKMARK [1][-]{section.4.3}{G\351n\351ration du model}{chapter.4}% 21
+\BOOKMARK [2][-]{paragraph*.23}{Etapes g\351n\351ration du model}{section.4.3}% 22
+\BOOKMARK [1][-]{section.4.4}{Classification}{chapter.4}% 23
+\BOOKMARK [2][-]{paragraph*.24}{Etapes de la classification}{section.4.4}% 24
+\BOOKMARK [1][-]{section.4.5}{Cha\356nage}{chapter.4}% 25
+\BOOKMARK [2][-]{paragraph*.25}{Etapes du Cha\356nage}{section.4.5}% 26
+\BOOKMARK [0][-]{chapter.5}{Refactoring}{}% 27

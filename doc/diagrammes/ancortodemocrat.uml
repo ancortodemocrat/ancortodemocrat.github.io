@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.democrat.ancortodemocrat</OriginalElement>
+  <nodes>
+    <node x="297.5000000000001" y="670.0">com.democrat.ancortodemocrat.ConversionWorker</node>
+    <node x="402.0" y="1996.0">com.democrat.ancortodemocrat.ComparaisonResult</node>
+    <node x="1369.625" y="1275.0">com.democrat.ancortodemocrat.Corpus</node>
+    <node x="315.0000000000001" y="403.0">com.democrat.ancortodemocrat.positioning</node>
+    <node x="201.0" y="1996.0">com.democrat.ancortodemocrat.ComparaisonRelation</node>
+    <node x="603.0" y="1996.0">com.democrat.ancortodemocrat.ConversionFichier</node>
+    <node x="1729.4055555555562" y="0.0">com.democrat.ancortodemocrat.Text</node>
+    <node x="1191.7805555555562" y="403.0">com.democrat.ancortodemocrat.feature</node>
+    <node x="780.9021037581704" y="624.0">com.democrat.ancortodemocrat.ConversionToArff</node>
+    <node x="829.0" y="1869.0">com.democrat.ancortodemocrat.SchemaOutput</node>
+    <node x="820.6555555555562" y="403.0">com.democrat.ancortodemocrat.ParamToArff</node>
+    <node x="638.4062500000001" y="946.0">com.democrat.ancortodemocrat.AncorToDemocrat</node>
+    <node x="1136.0" y="1869.0">com.democrat.ancortodemocrat.ConversionWorkerTest</node>
+    <node x="0.0" y="1996.0">com.democrat.ancortodemocrat.ConversionCoref</node>
+    <node x="530.0000000000001" y="403.0">com.democrat.ancortodemocrat.treetagger</node>
+    <node x="1195.9021037581704" y="624.0">com.democrat.ancortodemocrat.ConversionToArffMulti</node>
+    <node x="1973.9021037581704" y="1003.5">com.democrat.ancortodemocrat.XmlWriter</node>
+    <node x="301.5" y="1869.0">com.democrat.ancortodemocrat.MultiClassifier</node>
+    <node x="0.0" y="357.0">com.democrat.ancortodemocrat.ConversionInSet</node>
+    <node x="540.7062500000002" y="1655.0">com.democrat.ancortodemocrat.FileManager</node>
+    <node x="1621.9021037581704" y="693.0">com.democrat.ancortodemocrat.XmlLoader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.XmlLoader">
+      <point x="154.21875" y="-84.5" />
+      <point x="957.1250000000001" y="926.0" />
+      <point x="1699.1521037581704" y="926.0" />
+      <point x="-77.25" y="27.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.feature" target="com.democrat.ancortodemocrat.Text">
+      <point x="0.0" y="-15.5" />
+      <point x="1254.2805555555562" y="337.0" />
+      <point x="1814.6555555555562" y="337.0" />
+      <point x="-85.25" y="153.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionWorker" target="com.democrat.ancortodemocrat.ConversionInSet">
+      <point x="-72.0" y="-50.0" />
+      <point x="315.5000000000001" y="604.0" />
+      <point x="245.0" y="604.0" />
+      <point x="98.0" y="61.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ComparaisonRelation" target="com.democrat.ancortodemocrat.MultiClassifier">
+      <point x="0.0" y="-38.5" />
+      <point x="291.5" y="1976.0" />
+      <point x="369.375" y="1976.0" />
+      <point x="-22.625" y="38.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionCoref" target="com.democrat.ancortodemocrat.MultiClassifier">
+      <point x="0.0" y="-38.5" />
+      <point x="90.5" y="1966.0" />
+      <point x="324.125" y="1966.0" />
+      <point x="-67.875" y="38.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArff" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="164.16666666666674" y="96.0" />
+      <point x="1142.068770424837" y="876.0" />
+      <point x="1109.625" y="876.0" />
+      <point x="1109.625" y="1165.0" />
+      <point x="1487.35" y="1165.0" />
+      <point x="-20.77500000000009" y="-165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.treetagger">
+      <point x="-71.96875" y="-84.5" />
+      <point x="730.9375000000001" y="866.0" />
+      <point x="650.0000000000001" y="866.0" />
+      <point x="48.0" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArff" target="com.democrat.ancortodemocrat.AncorToDemocrat">
+      <point x="-32.83333333333337" y="96.0" />
+      <point x="945.068770424837" y="876.0" />
+      <point x="854.3125000000001" y="876.0" />
+      <point x="51.40625" y="-84.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArffMulti" target="com.democrat.ancortodemocrat.ParamToArff">
+      <point x="-49.25" y="-96.0" />
+      <point x="1343.6521037581704" y="544.0" />
+      <point x="930.4555555555562" y="544.0" />
+      <point x="48.799999999999955" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionFichier" target="com.democrat.ancortodemocrat.MultiClassifier">
+      <point x="0.0" y="-38.5" />
+      <point x="693.5" y="1966.0" />
+      <point x="459.875" y="1966.0" />
+      <point x="67.875" y="38.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArff" target="com.democrat.ancortodemocrat.ParamToArff">
+      <point x="-49.25" y="-96.0" />
+      <point x="928.6521037581704" y="564.0" />
+      <point x="881.6555555555562" y="564.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArffMulti" target="com.democrat.ancortodemocrat.AncorToDemocrat">
+      <point x="-32.83333333333326" y="96.0" />
+      <point x="1360.068770424837" y="916.0" />
+      <point x="936.5625000000001" y="916.0" />
+      <point x="133.65625" y="-84.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.ParamToArff">
+      <point x="-30.84375" y="-84.5" />
+      <point x="772.0625000000001" y="846.0" />
+      <point x="691.6000000000001" y="846.0" />
+      <point x="691.6000000000001" y="554.0" />
+      <point x="832.8555555555563" y="554.0" />
+      <point x="-48.799999999999955" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.treetagger" target="com.democrat.ancortodemocrat.treetagger">
+      <point x="-32.0" y="15.5" />
+      <point x="570.0000000000001" y="474.0" />
+      <point x="490.0000000000001" y="474.0" />
+      <point x="490.0000000000001" y="414.625" />
+      <point x="-72.0" y="-3.875" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.FileManager">
+      <point x="-131.60000000000002" y="84.5" />
+      <point x="671.3062500000001" y="1255.0" />
+      <point x="698.7062500000002" y="1255.0" />
+      <point x="698.7062500000002" y="1630.0" />
+      <point x="597.0395833333334" y="1630.0" />
+      <point x="-112.66666666666674" y="-84.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.ConversionToArffMulti">
+      <point x="113.09375" y="-84.5" />
+      <point x="916.0000000000001" y="906.0" />
+      <point x="1294.4021037581704" y="906.0" />
+      <point x="-98.5" y="96.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionWorker" target="com.democrat.ancortodemocrat.positioning">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.Corpus" target="com.democrat.ancortodemocrat.Text">
+      <point x="131.57500000000005" y="-165.0" />
+      <point x="1639.7000000000003" y="1255.0" />
+      <point x="2213.4021037581706" y="1255.0" />
+      <point x="2213.4021037581706" y="337.0" />
+      <point x="2041.9888888888895" y="337.0" />
+      <point x="142.08333333333326" y="153.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ComparaisonResult" target="com.democrat.ancortodemocrat.MultiClassifier">
+      <point x="0.0" y="-38.5" />
+      <point x="492.5" y="1976.0" />
+      <point x="414.625" y="1976.0" />
+      <point x="22.625" y="38.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.feature" target="com.democrat.ancortodemocrat.feature">
+      <point x="-56.25" y="15.5" />
+      <point x="1198.0305555555562" y="454.0" />
+      <point x="1171.7805555555562" y="454.0" />
+      <point x="1171.7805555555562" y="426.25" />
+      <point x="-62.5" y="7.75" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArffMulti" target="com.democrat.ancortodemocrat.feature">
+      <point x="49.25" y="-96.0" />
+      <point x="1442.1521037581704" y="534.0" />
+      <point x="1273.0305555555562" y="534.0" />
+      <point x="18.75" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.ConversionToArff">
+      <point x="10.28125" y="-84.5" />
+      <point x="-164.16666666666674" y="96.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionWorker" target="com.democrat.ancortodemocrat.Text">
+      <point x="-36.0" y="-50.0" />
+      <point x="351.5000000000001" y="594.0" />
+      <point x="304.5000000000001" y="594.0" />
+      <point x="304.5000000000001" y="327.0" />
+      <point x="1757.822222222223" y="327.0" />
+      <point x="-142.08333333333326" y="153.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionWorker" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="-67.5" y="50.0" />
+      <point x="320.0000000000001" y="916.0" />
+      <point x="295.003451797386" y="916.0" />
+      <point x="295.003451797386" y="1235.0" />
+      <point x="1390.4" y="1235.0" />
+      <point x="-117.72499999999991" y="-165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.FileManager" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="112.66666666666663" y="-84.5" />
+      <point x="822.3729166666668" y="1630.0" />
+      <point x="1508.125" y="1630.0" />
+      <point x="0.0" y="165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.Corpus" target="com.democrat.ancortodemocrat.XmlLoader">
+      <point x="62.325000000000045" y="-165.0" />
+      <point x="1570.4500000000003" y="1205.0" />
+      <point x="1853.6521037581704" y="1205.0" />
+      <point x="77.25" y="27.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.ConversionWorker">
+      <point x="-113.09375" y="-84.5" />
+      <point x="689.8125000000001" y="886.0" />
+      <point x="455.0000000000001" y="886.0" />
+      <point x="67.5" y="50.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="131.60000000000002" y="84.5" />
+      <point x="934.5062500000001" y="1195.0" />
+      <point x="1445.8000000000002" y="1195.0" />
+      <point x="-62.325000000000045" y="-165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.Corpus" target="com.democrat.ancortodemocrat.XmlWriter">
+      <point x="117.72499999999991" y="-165.0" />
+      <point x="1625.85" y="1245.0" />
+      <point x="2088.4021037581706" y="1245.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionInSet" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="-98.0" y="61.5" />
+      <point x="49.0" y="604.0" />
+      <point x="126.49152369281069" y="604.0" />
+      <point x="126.49152369281069" y="1245.0" />
+      <point x="1376.5500000000002" y="1245.0" />
+      <point x="-131.57500000000005" y="-165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.treetagger" target="com.democrat.ancortodemocrat.AncorToDemocrat">
+      <point x="64.0" y="15.5" />
+      <point x="666.0000000000001" y="604.0" />
+      <point x="661.0000000000001" y="604.0" />
+      <point x="661.0000000000001" y="856.0" />
+      <point x="751.5000000000001" y="856.0" />
+      <point x="-51.40625" y="-84.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.Corpus" target="com.democrat.ancortodemocrat.AncorToDemocrat">
+      <point x="-90.02499999999986" y="-165.0" />
+      <point x="1418.1000000000004" y="1215.0" />
+      <point x="802.9062500000001" y="1215.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArff" target="com.democrat.ancortodemocrat.feature">
+      <point x="49.25" y="-96.0" />
+      <point x="1027.1521037581704" y="584.0" />
+      <point x="1235.5305555555562" y="584.0" />
+      <point x="-18.75" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.ConversionInSet">
+      <point x="-154.21875" y="-84.5" />
+      <point x="648.6875000000001" y="906.0" />
+      <point x="137.4915236928107" y="906.0" />
+      <point x="137.4915236928107" y="604.0" />
+      <point x="147.0" y="604.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionToArffMulti" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="32.83333333333326" y="96.0" />
+      <point x="1425.7354370915036" y="916.0" />
+      <point x="1480.4021037581704" y="916.0" />
+      <point x="1480.4021037581704" y="1155.0" />
+      <point x="1501.2000000000003" y="1155.0" />
+      <point x="-6.9249999999999545" y="-165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.AncorToDemocrat" target="com.democrat.ancortodemocrat.feature">
+      <point x="71.96875" y="-84.5" />
+      <point x="874.8750000000001" y="886.0" />
+      <point x="1185.4021037581704" y="886.0" />
+      <point x="1185.4021037581704" y="604.0" />
+      <point x="1260.5305555555562" y="604.0" />
+      <point x="6.25" y="15.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.feature" target="com.democrat.ancortodemocrat.Corpus">
+      <point x="43.75" y="15.5" />
+      <point x="1298.0305555555562" y="514.0" />
+      <point x="1600.4021037581704" y="514.0" />
+      <point x="1600.4021037581704" y="1185.0" />
+      <point x="1542.75" y="1185.0" />
+      <point x="34.625" y="-165.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.ConversionWorker" target="com.democrat.ancortodemocrat.treetagger">
+      <point x="36.0" y="-50.0" />
+      <point x="423.5000000000001" y="594.0" />
+      <point x="602.0000000000001" y="594.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.37888198757763975" x="1107.0" y="1036.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

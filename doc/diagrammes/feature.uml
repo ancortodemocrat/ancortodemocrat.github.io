@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.democrat.ancortodemocrat.feature</OriginalElement>
+  <nodes>
+    <node x="0.0" y="168.0">com.democrat.ancortodemocrat.feature.CalculateFeature</node>
+    <node x="0.0" y="0.0">com.democrat.ancortodemocrat.feature.Feature</node>
+    <node x="0.0" y="290.0">com.democrat.ancortodemocrat.feature.FeatureSet</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="185.5" y="183.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

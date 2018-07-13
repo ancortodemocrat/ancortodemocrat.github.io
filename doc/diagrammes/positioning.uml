@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.democrat.ancortodemocrat.positioning</OriginalElement>
+  <nodes>
+    <node x="0.0" y="382.0">com.democrat.ancortodemocrat.positioning.PositioningSchema</node>
+    <node x="0.0" y="237.0">com.democrat.ancortodemocrat.positioning.PositioningRelation</node>
+    <node x="0.0" y="0.0">com.democrat.ancortodemocrat.positioning.PositioningUnit</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="160.5" y="229.5" />
+  <SelectedNodes>
+    <node>com.democrat.ancortodemocrat.positioning.PositioningSchema</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

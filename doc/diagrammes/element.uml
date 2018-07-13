@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.democrat.ancortodemocrat.element</OriginalElement>
+  <nodes>
+    <node x="721.5" y="0.0">com.democrat.ancortodemocrat.element.Annotation</node>
+    <node x="0.0" y="997.0">com.democrat.ancortodemocrat.element.Term</node>
+    <node x="468.0" y="1246.0">com.democrat.ancortodemocrat.element.SinglePosition</node>
+    <node x="182.25" y="645.0">com.democrat.ancortodemocrat.element.Element</node>
+    <node x="1233.0" y="997.0">com.democrat.ancortodemocrat.element.MetadataAnnotation</node>
+    <node x="9.5" y="288.0">com.democrat.ancortodemocrat.element.Unit</node>
+    <node x="587.0" y="997.0">com.democrat.ancortodemocrat.element.End</node>
+    <node x="0.0" y="0.0">com.democrat.ancortodemocrat.element.Schema</node>
+    <node x="339.5" y="219.0">com.democrat.ancortodemocrat.element.Relation</node>
+    <node x="237.0" y="1246.0">com.democrat.ancortodemocrat.element.Type</node>
+    <node x="1185.0" y="1246.0">com.democrat.ancortodemocrat.element.SchemaTest</node>
+    <node x="945.0" y="1246.0">com.democrat.ancortodemocrat.element.RelationTest</node>
+    <node x="1072.5" y="0.0">com.democrat.ancortodemocrat.element.MetadataUnit</node>
+    <node x="0.0" y="1368.0">com.democrat.ancortodemocrat.element.UnitTest</node>
+    <node x="680.0" y="1246.0">com.democrat.ancortodemocrat.element.AnnotationTest</node>
+    <node x="60.0" y="1170.0">com.democrat.ancortodemocrat.element.EmbeddedUnit</node>
+    <node x="0.0" y="1246.0">com.democrat.ancortodemocrat.element.ElementTest</node>
+    <node x="298.0" y="997.0">com.democrat.ancortodemocrat.element.Characterisation</node>
+    <node x="910.0" y="997.0">com.democrat.ancortodemocrat.element.Start</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.democrat.ancortodemocrat.element.Schema" target="com.democrat.ancortodemocrat.element.Unit">
+      <point x="0.0" y="-119.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.element.EmbeddedUnit" target="com.democrat.ancortodemocrat.element.Term">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.element.Unit" target="com.democrat.ancortodemocrat.element.Element">
+      <point x="-77.0" y="-153.5" />
+      <point x="259.25" y="620.0" />
+      <point x="164.5" y="620.0" />
+      <point x="0.0" y="119.0" />
+    </edge>
+    <edge source="com.democrat.ancortodemocrat.element.Relation" target="com.democrat.ancortodemocrat.element.Element">
+      <point x="77.0" y="-153.5" />
+      <point x="413.25" y="620.0" />
+      <point x="508.0" y="620.0" />
+      <point x="0.0" y="188.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5499306518723994" x="742.0" y="711.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

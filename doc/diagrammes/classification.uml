@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.democrat.classification</OriginalElement>
+  <nodes>
+    <node x="0.0" y="329.0">com.democrat.classification.Model</node>
+    <node x="483.0" y="589.0">com.democrat.classification.ModelGeneration</node>
+    <node x="0.0" y="589.0">com.democrat.classification.Mention</node>
+    <node x="364.0" y="329.0">com.democrat.classification.Chain</node>
+    <node x="243.0" y="589.0">com.democrat.classification.Classification</node>
+    <node x="0.0" y="0.0">com.democrat.classification.Chaining</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="337.5" y="356.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
